@@ -1,0 +1,6 @@
+{
+   "parent": "block/cube_all",
+   "textures": {
+      "all": "muchore:blocks/compressed_nordic_steel_block"
+   }
+}

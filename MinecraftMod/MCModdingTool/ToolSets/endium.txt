@@ -1,0 +1,20 @@
+    public static final ToolMaterial MATERIAL_ENDIUM_INGOT = EnumHelper.addToolMaterial
+        ("material_endium_ingot", 0, 0, 0, 0, 0);
+
+    public static final ArmorMaterial ARMOR_MATERIAL_ENDIUM_INGOT =
+        EnumHelper.addArmorMaterial("armor_material_endium_ingot", Reference.MOD_ID + ":endium_ingot",
+        0, new int[] {0, 0, 0, 0}, 0, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0f);
+
+    public static final Item ENDIUM_INGOT = new ItemBase("endium_ingot");
+
+    public static final ItemSword ENDIUM_SWORD = new ToolSword("endium_sword", MATERIAL_ENDIUM_INGOT);
+    public static final ItemSpade ENDIUM_SHOVEL = new ToolSpade("endium_shovel", MATERIAL_ENDIUM_INGOT);
+    public static final ItemPickaxe ENDIUM_PICKAXE = new ToolPickaxe("endium_pickaxe", MATERIAL_ENDIUM_INGOT);
+    public static final ItemAxe ENDIUM_AXE = new ToolAxe("endium_axe", MATERIAL_ENDIUM_INGOT);
+    public static final ItemHoe ENDIUM_HOE = new ToolHoe("endium_hoe", MATERIAL_ENDIUM_INGOT);
+
+    public static final Item ENDIUM_HELMET = new ArmorBase("endium_helmet", ARMOR_MATERIAL_ENDIUM_INGOT, 0, EntityEquipmentSlot.HEAD);
+public static final Item ENDIUM_CHESTPLATE = new ArmorBase("endium_chestplate", ARMOR_MATERIAL_ENDIUM_INGOT, 0, EntityEquipmentSlot.CHEST);
+ public static final Item ENDIUM_LEGGINGS = new ArmorBase("endium_leggings", ARMOR_MATERIAL_ENDIUM_INGOT, 0, EntityEquipmentSlot.LEGS);
+ public static final Item ENDIUM_BOOTS = new ArmorBase("endium_boots", ARMOR_MATERIAL_ENDIUM_INGOT, 0, EntityEquipmentSlot.FEET);
+ 

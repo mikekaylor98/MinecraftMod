@@ -1,0 +1,20 @@
+    public static final ToolMaterial MATERIAL_MYTHRIL_INGOT = EnumHelper.addToolMaterial
+        ("material_mythril_ingot", 0, 0, 0, 0, 0);
+
+    public static final ArmorMaterial ARMOR_MATERIAL_MYTHRIL_INGOT =
+        EnumHelper.addArmorMaterial("armor_material_mythril_ingot", Reference.MOD_ID + ":mythril_ingot",
+        0, new int[] {0, 0, 0, 0}, 0, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0f);
+
+    public static final Item MYTHRIL_INGOT = new ItemBase("mythril_ingot");
+
+    public static final ItemSword MYTHRIL_SWORD = new ToolSword("mythril_sword", MATERIAL_MYTHRIL_INGOT);
+    public static final ItemSpade MYTHRIL_SHOVEL = new ToolSpade("mythril_shovel", MATERIAL_MYTHRIL_INGOT);
+    public static final ItemPickaxe MYTHRIL_PICKAXE = new ToolPickaxe("mythril_pickaxe", MATERIAL_MYTHRIL_INGOT);
+    public static final ItemAxe MYTHRIL_AXE = new ToolAxe("mythril_axe", MATERIAL_MYTHRIL_INGOT);
+    public static final ItemHoe MYTHRIL_HOE = new ToolHoe("mythril_hoe", MATERIAL_MYTHRIL_INGOT);
+
+    public static final Item MYTHRIL_HELMET = new ArmorBase("mythril_helmet", ARMOR_MATERIAL_MYTHRIL_INGOT, 0, EntityEquipmentSlot.HEAD);
+public static final Item MYTHRIL_CHESTPLATE = new ArmorBase("mythril_chestplate", ARMOR_MATERIAL_MYTHRIL_INGOT, 0, EntityEquipmentSlot.CHEST);
+ public static final Item MYTHRIL_LEGGINGS = new ArmorBase("mythril_leggings", ARMOR_MATERIAL_MYTHRIL_INGOT, 0, EntityEquipmentSlot.LEGS);
+ public static final Item MYTHRIL_BOOTS = new ArmorBase("mythril_boots", ARMOR_MATERIAL_MYTHRIL_INGOT, 0, EntityEquipmentSlot.FEET);
+ 

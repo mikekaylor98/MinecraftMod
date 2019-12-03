@@ -1,0 +1,20 @@
+    public static final ToolMaterial MATERIAL_SILVER_INGOT = EnumHelper.addToolMaterial
+        ("material_silver_ingot", 0, 0, 0, 0, 0);
+
+    public static final ArmorMaterial ARMOR_MATERIAL_SILVER_INGOT =
+        EnumHelper.addArmorMaterial("armor_material_silver_ingot", Reference.MOD_ID + ":silver_ingot",
+        0, new int[] {0, 0, 0, 0}, 0, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0f);
+
+    public static final Item SILVER_INGOT = new ItemBase("silver_ingot");
+
+    public static final ItemSword SILVER_SWORD = new ToolSword("silver_sword", MATERIAL_SILVER_INGOT);
+    public static final ItemSpade SILVER_SHOVEL = new ToolSpade("silver_shovel", MATERIAL_SILVER_INGOT);
+    public static final ItemPickaxe SILVER_PICKAXE = new ToolPickaxe("silver_pickaxe", MATERIAL_SILVER_INGOT);
+    public static final ItemAxe SILVER_AXE = new ToolAxe("silver_axe", MATERIAL_SILVER_INGOT);
+    public static final ItemHoe SILVER_HOE = new ToolHoe("silver_hoe", MATERIAL_SILVER_INGOT);
+
+    public static final Item SILVER_HELMET = new ArmorBase("silver_helmet", ARMOR_MATERIAL_SILVER_INGOT, 0, EntityEquipmentSlot.HEAD);
+public static final Item SILVER_CHESTPLATE = new ArmorBase("silver_chestplate", ARMOR_MATERIAL_SILVER_INGOT, 0, EntityEquipmentSlot.CHEST);
+ public static final Item SILVER_LEGGINGS = new ArmorBase("silver_leggings", ARMOR_MATERIAL_SILVER_INGOT, 0, EntityEquipmentSlot.LEGS);
+ public static final Item SILVER_BOOTS = new ArmorBase("silver_boots", ARMOR_MATERIAL_SILVER_INGOT, 0, EntityEquipmentSlot.FEET);
+ 

@@ -1,0 +1,20 @@
+    public static final ToolMaterial MATERIAL_ADMINIUM_INGOT = EnumHelper.addToolMaterial
+        ("material_adminium_ingot", 0, 0, 0, 0, 0);
+
+    public static final ArmorMaterial ARMOR_MATERIAL_ADMINIUM_INGOT =
+        EnumHelper.addArmorMaterial("armor_material_adminium_ingot", Reference.MOD_ID + ":adminium_ingot",
+        0, new int[] {0, 0, 0, 0}, 0, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0f);
+
+    public static final Item ADMINIUM_INGOT = new ItemBase("adminium_ingot");
+
+    public static final ItemSword ADMINIUM_SWORD = new ToolSword("adminium_sword", MATERIAL_ADMINIUM_INGOT);
+    public static final ItemSpade ADMINIUM_SHOVEL = new ToolSpade("adminium_shovel", MATERIAL_ADMINIUM_INGOT);
+    public static final ItemPickaxe ADMINIUM_PICKAXE = new ToolPickaxe("adminium_pickaxe", MATERIAL_ADMINIUM_INGOT);
+    public static final ItemAxe ADMINIUM_AXE = new ToolAxe("adminium_axe", MATERIAL_ADMINIUM_INGOT);
+    public static final ItemHoe ADMINIUM_HOE = new ToolHoe("adminium_hoe", MATERIAL_ADMINIUM_INGOT);
+
+    public static final Item ADMINIUM_HELMET = new ArmorBase("adminium_helmet", ARMOR_MATERIAL_ADMINIUM_INGOT, 0, EntityEquipmentSlot.HEAD);
+public static final Item ADMINIUM_CHESTPLATE = new ArmorBase("adminium_chestplate", ARMOR_MATERIAL_ADMINIUM_INGOT, 0, EntityEquipmentSlot.CHEST);
+ public static final Item ADMINIUM_LEGGINGS = new ArmorBase("adminium_leggings", ARMOR_MATERIAL_ADMINIUM_INGOT, 0, EntityEquipmentSlot.LEGS);
+ public static final Item ADMINIUM_BOOTS = new ArmorBase("adminium_boots", ARMOR_MATERIAL_ADMINIUM_INGOT, 0, EntityEquipmentSlot.FEET);
+ 

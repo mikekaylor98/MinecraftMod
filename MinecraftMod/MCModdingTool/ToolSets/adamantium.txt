@@ -1,0 +1,20 @@
+    public static final ToolMaterial MATERIAL_ADAMANTIUM_INGOT = EnumHelper.addToolMaterial
+        ("material_adamantium_ingot", 0, 0, 0, 0, 0);
+
+    public static final ArmorMaterial ARMOR_MATERIAL_ADAMANTIUM_INGOT =
+        EnumHelper.addArmorMaterial("armor_material_adamantium_ingot", Reference.MOD_ID + ":adamantium_ingot",
+        0, new int[] {0, 0, 0, 0}, 0, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0f);
+
+    public static final Item ADAMANTIUM_INGOT = new ItemBase("adamantium_ingot");
+
+    public static final ItemSword ADAMANTIUM_SWORD = new ToolSword("adamantium_sword", MATERIAL_ADAMANTIUM_INGOT);
+    public static final ItemSpade ADAMANTIUM_SHOVEL = new ToolSpade("adamantium_shovel", MATERIAL_ADAMANTIUM_INGOT);
+    public static final ItemPickaxe ADAMANTIUM_PICKAXE = new ToolPickaxe("adamantium_pickaxe", MATERIAL_ADAMANTIUM_INGOT);
+    public static final ItemAxe ADAMANTIUM_AXE = new ToolAxe("adamantium_axe", MATERIAL_ADAMANTIUM_INGOT);
+    public static final ItemHoe ADAMANTIUM_HOE = new ToolHoe("adamantium_hoe", MATERIAL_ADAMANTIUM_INGOT);
+
+    public static final Item ADAMANTIUM_HELMET = new ArmorBase("adamantium_helmet", ARMOR_MATERIAL_ADAMANTIUM_INGOT, 0, EntityEquipmentSlot.HEAD);
+public static final Item ADAMANTIUM_CHESTPLATE = new ArmorBase("adamantium_chestplate", ARMOR_MATERIAL_ADAMANTIUM_INGOT, 0, EntityEquipmentSlot.CHEST);
+ public static final Item ADAMANTIUM_LEGGINGS = new ArmorBase("adamantium_leggings", ARMOR_MATERIAL_ADAMANTIUM_INGOT, 0, EntityEquipmentSlot.LEGS);
+ public static final Item ADAMANTIUM_BOOTS = new ArmorBase("adamantium_boots", ARMOR_MATERIAL_ADAMANTIUM_INGOT, 0, EntityEquipmentSlot.FEET);
+ 

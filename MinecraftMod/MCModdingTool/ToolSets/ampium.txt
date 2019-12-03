@@ -1,0 +1,20 @@
+    public static final ToolMaterial MATERIAL_AMPIUM_INGOT = EnumHelper.addToolMaterial
+        ("material_ampium_ingot", 0, 0, 0, 0, 0);
+
+    public static final ArmorMaterial ARMOR_MATERIAL_AMPIUM_INGOT =
+        EnumHelper.addArmorMaterial("armor_material_ampium_ingot", Reference.MOD_ID + ":ampium_ingot",
+        0, new int[] {0, 0, 0, 0}, 0, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0f);
+
+    public static final Item AMPIUM_INGOT = new ItemBase("ampium_ingot");
+
+    public static final ItemSword AMPIUM_SWORD = new ToolSword("ampium_sword", MATERIAL_AMPIUM_INGOT);
+    public static final ItemSpade AMPIUM_SHOVEL = new ToolSpade("ampium_shovel", MATERIAL_AMPIUM_INGOT);
+    public static final ItemPickaxe AMPIUM_PICKAXE = new ToolPickaxe("ampium_pickaxe", MATERIAL_AMPIUM_INGOT);
+    public static final ItemAxe AMPIUM_AXE = new ToolAxe("ampium_axe", MATERIAL_AMPIUM_INGOT);
+    public static final ItemHoe AMPIUM_HOE = new ToolHoe("ampium_hoe", MATERIAL_AMPIUM_INGOT);
+
+    public static final Item AMPIUM_HELMET = new ArmorBase("ampium_helmet", ARMOR_MATERIAL_AMPIUM_INGOT, 0, EntityEquipmentSlot.HEAD);
+public static final Item AMPIUM_CHESTPLATE = new ArmorBase("ampium_chestplate", ARMOR_MATERIAL_AMPIUM_INGOT, 0, EntityEquipmentSlot.CHEST);
+ public static final Item AMPIUM_LEGGINGS = new ArmorBase("ampium_leggings", ARMOR_MATERIAL_AMPIUM_INGOT, 0, EntityEquipmentSlot.LEGS);
+ public static final Item AMPIUM_BOOTS = new ArmorBase("ampium_boots", ARMOR_MATERIAL_AMPIUM_INGOT, 0, EntityEquipmentSlot.FEET);
+ 

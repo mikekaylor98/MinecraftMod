@@ -1,0 +1,20 @@
+    public static final ToolMaterial MATERIAL_CORIUM_INGOT = EnumHelper.addToolMaterial
+        ("material_corium_ingot", 0, 0, 0, 0, 0);
+
+    public static final ArmorMaterial ARMOR_MATERIAL_CORIUM_INGOT =
+        EnumHelper.addArmorMaterial("armor_material_corium_ingot", Reference.MOD_ID + ":corium_ingot",
+        0, new int[] {0, 0, 0, 0}, 0, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0f);
+
+    public static final Item CORIUM_INGOT = new ItemBase("corium_ingot");
+
+    public static final ItemSword CORIUM_SWORD = new ToolSword("corium_sword", MATERIAL_CORIUM_INGOT);
+    public static final ItemSpade CORIUM_SHOVEL = new ToolSpade("corium_shovel", MATERIAL_CORIUM_INGOT);
+    public static final ItemPickaxe CORIUM_PICKAXE = new ToolPickaxe("corium_pickaxe", MATERIAL_CORIUM_INGOT);
+    public static final ItemAxe CORIUM_AXE = new ToolAxe("corium_axe", MATERIAL_CORIUM_INGOT);
+    public static final ItemHoe CORIUM_HOE = new ToolHoe("corium_hoe", MATERIAL_CORIUM_INGOT);
+
+    public static final Item CORIUM_HELMET = new ArmorBase("corium_helmet", ARMOR_MATERIAL_CORIUM_INGOT, 0, EntityEquipmentSlot.HEAD);
+public static final Item CORIUM_CHESTPLATE = new ArmorBase("corium_chestplate", ARMOR_MATERIAL_CORIUM_INGOT, 0, EntityEquipmentSlot.CHEST);
+ public static final Item CORIUM_LEGGINGS = new ArmorBase("corium_leggings", ARMOR_MATERIAL_CORIUM_INGOT, 0, EntityEquipmentSlot.LEGS);
+ public static final Item CORIUM_BOOTS = new ArmorBase("corium_boots", ARMOR_MATERIAL_CORIUM_INGOT, 0, EntityEquipmentSlot.FEET);
+ 

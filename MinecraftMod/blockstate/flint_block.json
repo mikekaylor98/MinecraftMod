@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "normal": { "model": "muchore:flint_block" }
+    }
+}
